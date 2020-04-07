@@ -19684,28 +19684,40 @@ var render = function() {
             ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-auto pt-1" }, [
-              _c("button", [
-                _c(
-                  "svg",
-                  {
-                    staticStyle: { fill: "#6a6862" },
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      viewBox: "0 0 24 24",
-                      width: "18px",
-                      height: "18px"
+              _c(
+                "button",
+                {
+                  attrs: { type: "button" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      return _vm.$emit("close-contact-us")
                     }
-                  },
-                  [
-                    _c("path", {
+                  }
+                },
+                [
+                  _c(
+                    "svg",
+                    {
+                      staticStyle: { fill: "#6a6862" },
                       attrs: {
-                        d:
-                          "M12,2C6.47,2,2,6.47,2,12c0,5.53,4.47,10,10,10s10-4.47,10-10C22,6.47,17.53,2,12,2z M16.707,15.293 c0.391,0.391,0.391,1.023,0,1.414C16.512,16.902,16.256,17,16,17s-0.512-0.098-0.707-0.293L12,13.414l-3.293,3.293 C8.512,16.902,8.256,17,8,17s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414L10.586,12L7.293,8.707 c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L12,10.586l3.293-3.293c0.391-0.391,1.023-0.391,1.414,0 s0.391,1.023,0,1.414L13.414,12L16.707,15.293z"
+                        xmlns: "http://www.w3.org/2000/svg",
+                        viewBox: "0 0 24 24",
+                        width: "18px",
+                        height: "18px"
                       }
-                    })
-                  ]
-                )
-              ])
+                    },
+                    [
+                      _c("path", {
+                        attrs: {
+                          d:
+                            "M12,2C6.47,2,2,6.47,2,12c0,5.53,4.47,10,10,10s10-4.47,10-10C22,6.47,17.53,2,12,2z M16.707,15.293 c0.391,0.391,0.391,1.023,0,1.414C16.512,16.902,16.256,17,16,17s-0.512-0.098-0.707-0.293L12,13.414l-3.293,3.293 C8.512,16.902,8.256,17,8,17s-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414L10.586,12L7.293,8.707 c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L12,10.586l3.293-3.293c0.391-0.391,1.023-0.391,1.414,0 s0.391,1.023,0,1.414L13.414,12L16.707,15.293z"
+                        }
+                      })
+                    ]
+                  )
+                ]
+              )
             ])
           ]),
           _vm._v(" "),
@@ -32399,8 +32411,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/Brad/Further/biggspowell/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/Brad/Further/biggspowell/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/josephmurphy/workspace/biggspowell/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/josephmurphy/workspace/biggspowell/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
