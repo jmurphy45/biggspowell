@@ -2069,6 +2069,13 @@ __webpack_require__.r(__webpack_exports__);
     return {
       isShow: false
     };
+  },
+  mounted: function mounted() {
+    var _this = this;
+
+    this.$root.$on('close-contact-us', function (event) {
+      return _this.isShow = false;
+    });
   }
 });
 

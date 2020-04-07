@@ -29,6 +29,9 @@
             return {
                 isShow : false,
             }
+        },
+        mounted(){
+            this.$root.$on('close-contact-us', event => this.isShow = false);
         }
      }
  </script>
