@@ -2070,13 +2070,15 @@ __webpack_require__.r(__webpack_exports__);
       isShow: false
     };
   },
-  mounted: function mounted() {
-    var _this = this;
-
-    this.$on('close-contact-us', function (event) {
-      console.log("testing");
-      _this.isShow = false;
-    });
+  methods: {
+    close: function close() {
+      this.isShow = false;
+    }
+  },
+  mounted: function mounted() {//            this.$on('close-contact-us', event => {
+    //                console.log("testing")
+    //                this.isShow = false
+    //            });
   }
 });
 
@@ -20007,7 +20009,14 @@ var render = function() {
             ],
             staticClass: "form-row contact-form m-0"
           },
-          [_c("div", { staticClass: "col-12" }, [_c("contact-form")], 1)]
+          [
+            _c(
+              "div",
+              { staticClass: "col-12" },
+              [_c("contact-form", { on: { "close-contact-us": _vm.close } })],
+              1
+            )
+          ]
         )
       ])
     ],
