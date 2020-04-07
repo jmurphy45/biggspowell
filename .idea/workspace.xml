@@ -68,7 +68,7 @@
         <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+              <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -429,12 +429,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586220710747</updated>
-      <workItem from="1586220712874" duration="3205000" />
+      <workItem from="1586220712874" duration="3242000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3205000" />
+    <option name="totallyTimeSpent" value="3242000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -549,7 +549,7 @@
     <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
           <folding />
         </state>
       </provider>
