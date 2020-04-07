@@ -38,7 +38,7 @@
             </div>
             <div class="form-row">
                 <div class="col-6 pt-3 pb-0">
-                    <p class="mt-0 mb-0"><small>By appointment only:</small></p>
+                    <p class="mt-0 mb-0"><small>By appointment:</small></p>
                 </div>
                 <div class="col-6 pt-3 pb-0">
                     <p class="mt-0 mb-0"><small>Coming Soon:</small></p>
