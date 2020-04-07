@@ -31,7 +31,7 @@
             }
         },
         mounted(){
-            this.$root.$on('close-contact-us', event => {
+            this.$on('close-contact-us', event => {
                 console.log("testing")
                 this.isShow = false
             });

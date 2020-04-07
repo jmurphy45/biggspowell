@@ -96,10 +96,11 @@
                     .then( (response) => {
                         this.thankyou = true
                         setTimeout(() => {
-                            this.$root.$emit('close-contact-us');
+                            this.$emit('close-contact-us');
                             this.name = null;
                             this.company = null;
-                            this.email = null;this.name = null;
+                            this.email = null;
+                            this.name = null;
                             this.message = null;
                             this.phone = null;
                             this.thankyou = false

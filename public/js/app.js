@@ -2007,7 +2007,7 @@ __webpack_require__.r(__webpack_exports__);
       }).then(function (response) {
         _this.thankyou = true;
         setTimeout(function () {
-          _this.$root.$emit('close-contact-us');
+          _this.$emit('close-contact-us');
 
           _this.name = null;
           _this.company = null;
@@ -2073,7 +2073,7 @@ __webpack_require__.r(__webpack_exports__);
   mounted: function mounted() {
     var _this = this;
 
-    this.$root.$on('close-contact-us', function (event) {
+    this.$on('close-contact-us', function (event) {
       console.log("testing");
       _this.isShow = false;
     });

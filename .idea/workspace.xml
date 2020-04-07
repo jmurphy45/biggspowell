@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="36b87a60-61f2-44d7-b9ed-d2a21b6f9e4e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/components/ContactForm.vue" afterPath="$PROJECT_DIR$/resources/js/components/ContactForm.vue" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/js/components/Home.vue" afterPath="$PROJECT_DIR$/resources/js/components/Home.vue" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +29,8 @@
       <file leaf-file-name="ContactForm.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/js/components/ContactForm.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="98" column="65" lean-forward="true" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="65" />
+            <state relative-caret-position="252">
+              <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file leaf-file-name="Home.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/js/components/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+            <state relative-caret-position="248">
+              <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -88,8 +89,8 @@
         <option value="$PROJECT_DIR$/resources/views/vendor/mail/html/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/mail/contact_us.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/V1/ContactController.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/ContactForm.vue" />
         <option value="$PROJECT_DIR$/app/Mail/ContactUs.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/ContactForm.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/Home.vue" />
       </list>
     </option>
@@ -430,12 +431,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586220710747</updated>
-      <workItem from="1586220712874" duration="3330000" />
+      <workItem from="1586220712874" duration="3510000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3330000" />
+    <option name="totallyTimeSpent" value="3510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -523,10 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ContactForm.vue">
+    <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="98" column="65" lean-forward="true" selection-start-line="98" selection-start-column="27" selection-end-line="98" selection-end-column="65" />
+        <state relative-caret-position="280">
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
           <folding />
         </state>
       </provider>
@@ -539,18 +540,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mail/ContactUs.php">
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ContactForm.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+        <state relative-caret-position="252">
+          <caret line="98" column="32" lean-forward="false" selection-start-line="98" selection-start-column="32" selection-end-line="98" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/Home.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="34" column="36" lean-forward="false" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        <state relative-caret-position="248">
+          <caret line="33" column="16" lean-forward="false" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
           <folding />
         </state>
       </provider>
