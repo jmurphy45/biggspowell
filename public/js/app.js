@@ -2074,7 +2074,8 @@ __webpack_require__.r(__webpack_exports__);
     var _this = this;
 
     this.$root.$on('close-contact-us', function (event) {
-      return _this.isShow = false;
+      console.log("testing");
+      _this.isShow = false;
     });
   }
 });

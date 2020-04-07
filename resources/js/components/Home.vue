@@ -31,7 +31,10 @@
             }
         },
         mounted(){
-            this.$root.$on('close-contact-us', event => this.isShow = false);
+            this.$root.$on('close-contact-us', event => {
+                console.log("testing")
+                this.isShow = false
+            });
         }
      }
  </script>
