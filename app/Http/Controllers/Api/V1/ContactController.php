@@ -3,7 +3,10 @@
 namespace App\Http\Controllers\Api\V1;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ContactUsRequest;
+use App\Mail\ContactUs;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 
 class ContactController extends Controller
 {
@@ -13,9 +16,9 @@ class ContactController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(ContactUsRequest $request)
     {
-        //Mail::send(new ContactUs($request));
+        Mail::send(new ContactUs($request));
         return response()->json(['message' => 'sucessful'], 200);
     }
 }
