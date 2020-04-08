@@ -222,4 +222,8 @@ and (orientation : portrait) {
   .contact-form {
     width: 100vw;
   }
+  .full-height {
+    height: 0 !important;
+    padding-top: 45vh;
+  }
 }
