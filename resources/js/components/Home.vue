@@ -14,7 +14,7 @@
 
         <transition name="slide">
             <div class="form-row contact-form m-0" v-show="isShow">
-                <div class="col-12">
+                <div class="col-12 p-0">
                     <contact-form v-on:close-contact-us="close"></contact-form>
                 </div>
             </div>

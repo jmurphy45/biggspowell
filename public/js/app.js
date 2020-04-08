@@ -20012,7 +20012,7 @@ var render = function() {
           [
             _c(
               "div",
-              { staticClass: "col-12" },
+              { staticClass: "col-12 p-0" },
               [_c("contact-form", { on: { "close-contact-us": _vm.close } })],
               1
             )
