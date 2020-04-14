@@ -11568,6 +11568,7 @@ td.header {
     height: auto;
     width: auto;
     background: #1b1b1b;
+    overflow: scroll;
   }
 
   .full-height {
