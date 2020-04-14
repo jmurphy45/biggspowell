@@ -213,17 +213,18 @@ and (orientation : portrait) {
     // overflow: hidden;
   }
   .contact-form {
-    top: 0;
-    right: 0;
-    position: absolute;
     // height: auto;
     width: auto;
     background: #1b1b1b;
-    overflow: scroll;
+    // overflow: scroll;
   }
+  // .position-ref {
+  //   position: relative;
+  // }
   .full-height {
-    height: 0 !important;
-    padding-top: 45vh;
+    height: auto !important;
+    padding-top: 30vh;
+    // padding-top: 45vh;
   }
   .form-row {
     margin: 0 !important;

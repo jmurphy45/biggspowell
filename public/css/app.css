@@ -11557,17 +11557,13 @@ td.header {
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   .contact-form {
-    top: 0;
-    right: 0;
-    position: absolute;
     width: auto;
     background: #1b1b1b;
-    overflow: scroll;
   }
 
   .full-height {
-    height: 0 !important;
-    padding-top: 45vh;
+    height: auto !important;
+    padding-top: 30vh;
   }
 
   .form-row {
