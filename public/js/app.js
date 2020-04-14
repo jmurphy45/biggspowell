@@ -19897,7 +19897,7 @@ var staticRenderFns = [
     return _c("div", { staticClass: "form-row" }, [
       _c("div", { staticClass: "col-6 pt-3 pb-0" }, [
         _c("p", { staticClass: "mt-0 mb-0" }, [
-          _c("small", [_vm._v("By appointment only:")])
+          _c("small", [_vm._v("By appointment:")])
         ])
       ]),
       _vm._v(" "),
@@ -20012,7 +20012,7 @@ var render = function() {
           [
             _c(
               "div",
-              { staticClass: "col-12" },
+              { staticClass: "col-12 p-0" },
               [_c("contact-form", { on: { "close-contact-us": _vm.close } })],
               1
             )
@@ -32428,8 +32428,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/josephmurphy/workspace/biggspowell/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/josephmurphy/workspace/biggspowell/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/Brad/Further/biggspowell/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/Brad/Further/biggspowell/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
