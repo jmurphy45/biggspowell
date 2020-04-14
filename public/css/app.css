@@ -11382,6 +11382,7 @@ button {
 
 .full-height {
   height: 100vh;
+  overflow: hidden;
 }
 
 .flex-center {
@@ -11399,10 +11400,6 @@ button {
 
 .content {
   text-align: center;
-}
-
-#home {
-  overflow: hidden;
 }
 
 .btn:focus,
