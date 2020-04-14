@@ -42,6 +42,10 @@ button {
     text-align: center;
 }
 
+#home {
+  overflow: hidden;
+}
+
 .btn:focus, .btn:active {
     box-shadow: none !important;
 }
@@ -211,9 +215,6 @@ and (orientation : portrait) {
   body {
     // height: auto;
     // overflow: hidden;
-  }
-  #home {
-    overflow: hidden;
   }
   .contact-form {
     // height: auto;

@@ -11401,6 +11401,10 @@ button {
   text-align: center;
 }
 
+#home {
+  overflow: hidden;
+}
+
 .btn:focus,
 .btn:active {
   box-shadow: none !important;
@@ -11556,10 +11560,6 @@ td.header {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
-  #home {
-    overflow: hidden;
-  }
-
   .contact-form {
     width: auto;
     background: #1b1b1b;
