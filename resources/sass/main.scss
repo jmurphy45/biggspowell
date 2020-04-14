@@ -210,6 +210,7 @@ and (max-device-width : 568px)
 and (orientation : portrait) {
   body {
     height: auto;
+    overflow: hidden;
   }
   .contact-form {
     top: 0;
