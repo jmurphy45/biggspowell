@@ -209,14 +209,14 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : portrait) {
   body {
-    height: 96vh;
+    height: 100vh;
     // overflow: hidden;
   }
   .contact-form {
     top: 0;
     right: 0;
     position: absolute;
-    height: 98vh;
+    // height: auto;
     width: auto;
     background: #1b1b1b;
     // overflow: scroll;
