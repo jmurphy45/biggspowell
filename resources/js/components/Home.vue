@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="home">
         <div class="form-row">
             <div class="col-12 text-center">
                 <img :src="'/images/logo.svg'" width="100" height="100">

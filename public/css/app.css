@@ -11560,12 +11560,17 @@ td.header {
     height: 100vh;
   }
 
+  #home {
+    overflow: hidden;
+  }
+
   .contact-form {
     top: 0;
     right: 0;
     position: absolute;
     width: auto;
     background: #1b1b1b;
+    overflow: scroll;
   }
 
   .full-height {

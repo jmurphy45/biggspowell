@@ -19964,6 +19964,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
+    { attrs: { id: "home" } },
     [
       _c("div", { staticClass: "form-row" }, [
         _c("div", { staticClass: "col-12 text-center" }, [
