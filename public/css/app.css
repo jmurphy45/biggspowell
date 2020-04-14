@@ -11556,14 +11556,6 @@ td.header {
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
-  body {
-    height: 100vh;
-  }
-
-  #home {
-    overflow: hidden;
-  }
-
   .contact-form {
     top: 0;
     right: 0;
