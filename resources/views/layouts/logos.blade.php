@@ -14,6 +14,14 @@
 			<br><br><br>
 
 			<img src="{{ URL::asset('/images/logo-03.jpg') }}" alt="" width="100" height="100">
+
+			<br><br><br>
+
+			<img src="{{ URL::asset('/images/logo-04.jpg') }}" alt="" width="250" height="120">
+
+			<br><br><br>
+
+			<img src="{{ URL::asset('/images/logo-05.jpg') }}" alt="" width="250" height="120">
         </div>
     </body>
 </html>
