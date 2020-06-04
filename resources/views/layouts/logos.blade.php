@@ -21,7 +21,7 @@
 
 			<br><br><br>
 
-			<img src="{{ URL::asset('/images/logo-05.jpg') }}" alt="" width="250" height="120">
+			<img src="{{ URL::asset('/images/logo-05.jpg') }}" alt="" width="250" height="103">
         </div>
     </body>
 </html>
