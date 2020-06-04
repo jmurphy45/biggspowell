@@ -5,7 +5,7 @@
     </head>
     <body>
         <div class="container">
-            <img src="{{ URL::asset('/images/logo-01.jpg') }}" alt="" width="200" height="31">
+            <img src="{{ URL::asset('/images/logo-01.jpg') }}" alt="" width="250" height="39">
 
 			<br><br><br>
 
