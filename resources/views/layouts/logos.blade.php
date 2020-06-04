@@ -4,6 +4,7 @@
         <title>Logos</title>
     </head>
     <body>
+    	
         <div class="container">
             <img src="{{ URL::asset('/images/logo-01.jpg') }}" alt="" width="250" height="39">
 
@@ -23,5 +24,6 @@
 
 			<img src="{{ URL::asset('/images/logo-05.jpg') }}" alt="" width="250" height="103">
         </div>
+
     </body>
 </html>
