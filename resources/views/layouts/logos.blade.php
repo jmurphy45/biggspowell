@@ -1,7 +1,7 @@
 
 <html>
     <head>
-        <title>Logos - @yield('title')</title>
+        <title>Logos</title>
     </head>
     <body>
         <div class="container">
